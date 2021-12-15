@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f5f5;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.text{
+    margin-top: 12px;
+}
+.wid30{
+    width: 30%;
+}
+.wid50{
+    width: 50%;
+    display: inline;
+}
+.wid8{
+    width: 8%;
+}
+.wid10{
+    width: 10%;
+}
+.wid7{
+    width: 7%;
+    float: right;
+    margin-right: 1%;
+}
+.lin{
+    display: inline;
+}
+.wid40{
+    width: 40%;
+}
+.wid60{
+    width: 60%;
+}
+.table_sort th {
+    cursor: pointer;
+}
+th::after{
+    content: " ⇅";
+}
